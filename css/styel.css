@@ -230,6 +230,9 @@ body {
 
 
 @media (max-width: 490px) {
+	body {
+		height: auto;
+	}
 	.main {
 		display: block;
 	}
