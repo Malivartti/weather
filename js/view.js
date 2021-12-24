@@ -4,6 +4,7 @@ export const UI_ELEMENTS = {
 	FORM: document.querySelector('.form'),
 	LIKE_BTN: document.querySelector('.like_btn'),
 	FAVORITE_CITIES: document.querySelector('.main__favorite-bottom'),
+	FORECAST_LIST: document.querySelector('.forecast-list'),
 	SET_CITY: document.querySelectorAll('.city'),
 	SET_DEGREE: document.querySelectorAll('.degree'),
 	SET_WEATHER_ICON: document.querySelector('.picture'),

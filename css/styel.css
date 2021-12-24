@@ -20,6 +20,7 @@ body {
 	font-size: 18px;
 	line-height: 21px;
 	font-family: 'Roboto', sans-serif;
+	margin: 10px;
 
 }
 /* ------------------------------ Search -------------------------------*/
@@ -106,13 +107,18 @@ body {
 }
 
 .picture {
-	margin-left: 40px;
+	display: block;
+	margin: 0 auto;
 }
 
 .like_btn {
-	transform: translate(240px, -23px);
+	cursor: pointer;
 }
 
+.bottom {
+	display: flex;
+	justify-content: space-between;
+}
 /* ------------------------------ Result Details -------------------------------*/
 .content:nth-child(2) {
 	font-size: 24px;
@@ -155,12 +161,26 @@ body {
 .time-block {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .weather-block {
 	display: flex;
 	justify-content: space-between;
+	height: 59px;
+}
+.weather-block-right {
+	text-align: center
+}
+
+.temperature {
+	margin-bottom: 10px;
+}
+
+.pic {
+	width: 70px;
+	height: 70px;
+	transform: translateY(-10px);
 }
 /* ------------------------------ Main favorite -------------------------------*/
 .main__favorite {
@@ -204,5 +224,15 @@ body {
 }
 
 .favorite-item:hover {
-	background: #DCDCDC	;
+	background: #DCDCDC;
+}
+
+
+@media (max-width: 490px) {
+	.main {
+		display: block;
+	}
+	.main__result, .main__favorite {
+		width: 100%;
+	}
 }
