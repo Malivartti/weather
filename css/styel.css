@@ -12,7 +12,6 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	padding: 50px 0;
 }
 
 .container {
@@ -230,8 +229,8 @@ body {
 
 
 @media (max-width: 490px) {
-	body {
-		height: auto;
+	container {
+		margin: 50px 10px 0;
 	}
 	.main {
 		display: block;
