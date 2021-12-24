@@ -229,7 +229,7 @@ body {
 
 
 @media (max-width: 490px) {
-	container {
+	.container {
 		margin: 50px 10px 0;
 	}
 	.main {
